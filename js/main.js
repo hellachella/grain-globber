@@ -8,6 +8,8 @@
 
     $ul.append($li);
     $li.html(item.name);
+    $img.attr('src', 'images/' + grains.img);
+    $li.append($img);
 
   });
 //output lis in the ul
