@@ -8,7 +8,7 @@
 
     $ul.append($li);
     $li.html(item.name);
-    $img.attr('src', 'images/' + grains.img);
+    $img.attr('src', 'images/' + item.img);
     $li.append($img);
 
   });
